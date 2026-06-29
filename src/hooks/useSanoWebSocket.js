@@ -24,7 +24,7 @@ export function useSanoWebSocket(wsUrl) {
       wsRef.current = ws;
 
       ws.onopen = () => {
-        setConnectionState('connecting');
+        setConnectionState('connected');
       };
 
       ws.onclose = () => {
