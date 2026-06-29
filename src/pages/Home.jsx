@@ -7,7 +7,7 @@ import TabBar from '@/components/sano/TabBar';
 import LiveTab from '@/components/sano/LiveTab';
 import HistoryTab from '@/components/sano/HistoryTab';
 import DeviceTab from '@/components/sano/DeviceTab';
-import InsightsTab from '@/components/sano/InsightsTab';
+import InsightsTab from '@/components/sano/Insights';
 
 const STATUS_MAP = {
   idle: 'Ready',
