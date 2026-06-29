@@ -1,0 +1,23 @@
+{
+  "name": "Reading",
+  "type": "object",
+  "properties": {
+    "pressure": {
+      "type": "number"
+    },
+    "temp": {
+      "type": "number"
+    },
+    "humidity": {
+      "type": "number"
+    },
+    "reading_timestamp": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "pressure",
+    "temp",
+    "humidity"
+  ]
+}
